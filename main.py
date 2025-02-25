@@ -67,7 +67,7 @@ driver = webdriver.Chrome(service=service, options=chrome_options)
 
 try:
     driver.get('https://ggzy.zj.gov.cn/jyxxgk/list.html')
-    time.sleep(0.1)
+    time.sleep(1)
 
 
     clickXPATH("/html/body/div[2]/div/div[2]/div[3]/div/div/ul/li[2]/a")
