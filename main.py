@@ -59,8 +59,6 @@ chrome_options.add_argument("--disable-dev-shm-usage")
 # ChromeDriver 的路径 (使用 apt 安装时，通常在这里)
 chrome_driver_path = "/usr/lib/chromium-browser/chromedriver"
 
-chrome_driver_path = "P:\chromedriver\chromedriver.exe"
-
 # 创建 Service 对象，指定 ChromeDriver 的路径
 service = Service(executable_path=chrome_driver_path)
 
