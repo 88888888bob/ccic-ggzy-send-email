@@ -1,0 +1,4 @@
+Selenium
+openpyxl
+yagmail
+requests
